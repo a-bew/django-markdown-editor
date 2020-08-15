@@ -27,7 +27,7 @@ blocks:
   - name: Tests
     task:
       jobs:
-        - name: Unit tests
+        - name: Unit Tests
           commands:
             - cd martor_demo
             - python manage.py makemigrations
